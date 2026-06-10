@@ -4,8 +4,6 @@ int main() {
     unsigned long long fact = 1;
     printf("Enter a number: ");
     scanf("%d", &n);
-
-    // Factorial calculation
     for(i = 1; i <= n; i++) {
         fact = fact * i;
     }
